@@ -1,0 +1,41 @@
+.productThumb{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.imgWrapper{
+    width: 100%;
+    height: auto;
+}
+
+.imgWrapper img{
+    width: 100%;
+    height: auto;
+}
+
+.info{
+    padding: 10px;
+}
+
+.product-link{
+    color: rgb(67, 67, 188);
+    text-decoration: none;
+}
+
+.product-link:hover {
+    color: red;
+}
+
+.price-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.price, .mrp, .you-save{
+    display: block;
+    margin: 1px 0;
+    font-size: 14px;
+}
+.mrp {
+    text-decoration: line-through;
+}
